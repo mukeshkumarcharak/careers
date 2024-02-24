@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>careers</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- css -->
     <link rel="stylesheet" href="assets/css/careers.css">
     
     <!-- icon for toggle btn -->
@@ -13,11 +15,14 @@
 
     <!-- fontawesome icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- toggle theme-css -->
+    <link rel="stylesheet" href="assets/css/careers-toggle-theme.css">
   </head>
 
   <body>
     
-    <nav class="navbar navbar-expand-lg navbar-dark  menu">
+    <nav class="navbar navbar-expand-lg navbar-dark  menu fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="images/logo.png" alt="logo image" class="navbar-brand-img">
@@ -29,71 +34,80 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav mb-sm-4 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">HACKERS QUORA</a>
+              <a class="nav-link active" aria-current="page" href="https://www.hakxcore.com/#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#services">COURSES</a>
+              <a class="nav-link" href="https://www.hakxcore.com/#services">Service</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#testimonials">CTF</a>
+              <a class="nav-link" href="https://www.hakxcore.com/#testimonials">Testimonials</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#faq">CAREERS</a>
+              <a class="nav-link" href="https://www.hakxcore.com/#faq">Faqs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#portfolio">COMMUNITY</a>
+              <a class="nav-link" href="https://www.hakxcore.com/#portfolio">Portfolio</a>
             </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.hakxcore.com/#contact">Contact</a>
+            </li>
           </ul>
-          <!-- <div class="theme-btn">
+          <div class="theme-btn">
             <input type="checkbox" name="theme-checkbox" id="theme-checkbox">
             <label for="theme-checkbox">
-              <i class="ri-moon-line" id="theme_change"></i>
+              <i class="ri-sun-line" id="theme_change"></i>
             </label>
-          </div> -->
+          </div>
         </div>
       </div>
     </nav>
     <!-- navbar ends here. -->
 
     <!-- intro-section start here -->
-    <div class="container overflow-hidden">
-
-      <div class=" container intro-section mt-5 mb-5 " id="home">
+    <div class="container-auto overflow-hidden" style="padding-top: 8rem; margin-bottom: 8rem; margin-top: 4rem;" id="home">
+      
+      <div class=" container intro-section my-5  position-relative " >
         <div class="container intro-background">
-          <div class="row">
+          <div class="row d-flex">
             <div class="col-12">
-              <img src="images/circle-top-left.png" alt=".." id="circle-top-left" class="img-fluid">
-              <img src="images/circle-bottom-right.png" alt=".." id="circle-bottom-right" class="img-fluid">
-              <img src="images/frame-left-bottom.png" alt=".." id="frame-left-bottom" class="img-fluid">
-              <img src="images/frame-top-right.png" alt=".." id="frame-top-right" class="img-fluid">
-              <img src="images/circle-center.png" alt=".." id="circle-center" class="img-fluid align-middle justify-content-center" >
+
+              <div class="row">
+                <div class="col-auto">
+                  <img src="images/circle-top-left.png" alt=".." id="circle-top-left" class="img-fluid">
+                </div>
+                <div class="col-auto">
+                  <img src="images/frame-top-right.png" alt=".." id="frame-top-right" class="img-fluid">
+                </div>
+              </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-auto">
+                  <img src="images/circle-center.png" alt=".." id="circle-center" class="img-fluid">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-auto">
+                  <img src="images/frame-left-bottom.png" alt=".." id="frame-left-bottom" class="img-fluid">
+                </div>
+                <div class="col-auto">
+                  <img src="images/circle-bottom-right.png" alt=".." id="circle-bottom-right" class="img-fluid">
+                </div>
+              </div>
+
             </div>
           </div>
         
-        </div>
-        
-        <div class="row justify-content-center mb-2">
-            <div class="col-auto">
-              <form action="#">
-                <label for="search" class="search-container">
-                  <i class="fas fa-search"></i>
-                  <input type="text" id="search" placeholder="Search" required>
-                </label>
-              </form>
-            </div>
-        </div>
+        </div>        
+
         <div class="row">
           <div class="col-lg-6 intro-section-text">
             <h1>
               Best way To <br> Showcase your <br>
-              <span>
+              <span class="blue-text highlighted-text">
                 Skills
               </span>  <br>
               Find your career <br> 
-              <span>
+              <span class="blue-text highlighted-text">
                 fit
               </span>!
             </h1>
@@ -102,6 +116,7 @@
             <img src="images/intro-section-img.png" alt="intro-section img" class="img-fluid intor-section-img ">
           </div>
         </div>
+
         <div class="row">
           <div class="col-4 apply-now-btn">
             <button class="p-2">
@@ -121,26 +136,28 @@
         </div>
 
         <div class="row intern-section-content">
-          <div class="col-lg-6 p-5">
+          <div class="col-lg-7 p-5">
             <div class="row intern-section-heading">
-              <h1>
-                get your <br>
-              <span class="px-0">experience</span> <br>
-              you need
-              </h1>
+              <div class="col-12">
+                <h1>
+                  get your <br>
+                <span>experience <br> </span> 
+                you need
+                </h1>
+              </div>
             </div>
             <div class="row intern-section-para mb-3">
               choose your category in your passionable cybersecurity subfeild
             </div>
             <div class="row find-btn">
-              <div class="col-xl-6 ">
+              <div class="col-auto">
                 <button class="p-3">
                   find form me
                 </button>
               </div>
             </div>
           </div>
-          <div class="col-lg-6 internship-tech-icon img-fluid">
+          <div class="col-lg-5 internship-tech-icon img-fluid">
             <div class="row ">
               <div class="col-5 align-self-center">
                 <img src="images/intern-section-icon1.png" alt="" class="img-fluid">
@@ -184,12 +201,12 @@
 
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-4 mr-sm-3">
+        <div class="col-5 mr-sm-3">
           <button class="virtual-internship-btn p-3">
             Virtual Internships
           </button>
         </div>
-        <div class="col-2">
+        <div class="col-1">
 
         </div>
         <div class="col-5 alert-container p-3">
@@ -222,15 +239,15 @@
               Rs 6000
             </div>
             <div class="col mx-2">
-              <div class="row mb-1">
-                <div class="col-auto sub-domain mx-1">recon</div>
-                <div class="col-auto sub-domain mx-1">poc</div>
-                <div class="col-auto sub-domain mx-1">report generation</div>
+              <div class="row">
+                <div class="col-auto sub-domain mx-1 my-1">recon</div>
+                <div class="col-auto sub-domain mx-1 my-1">poc</div>
+                <div class="col-auto sub-domain mx-1 my-1">report generation</div>
               </div>
               <div class="row">
-                <div class="col-auto sub-domain mx-1">scoping</div>
-                <div class="col-auto sub-domain mx-1">vuln detection</div>
-                <div class="col-auto sub-domain mx-1">exploitation</div>
+                <div class="col-auto sub-domain mx-1 my-1">scoping</div>
+                <div class="col-auto sub-domain mx-1 my-1">vuln detection</div>
+                <div class="col-auto sub-domain mx-1 my-1">exploitation</div>
               </div>
             </div>
           </div>
@@ -262,15 +279,15 @@
               Rs 3000
             </div>
             <div class="col mx-2">
-              <div class="row mb-1">
-                <div class="col-auto sub-domain mx-1">OSI MODEL</div>
-                <div class="col-auto sub-domain mx-1">operation</div>
-                <div class="col-auto sub-domain mx-1">networking</div>
+              <div class="row">
+                <div class="col-auto sub-domain mx-1 my-1">OSI MODEL</div>
+                <div class="col-auto sub-domain mx-1 my-1">operation</div>
+                <div class="col-auto sub-domain mx-1 my-1">networking</div>
               </div>
               <div class="row">
-                <div class="col-auto sub-domain mx-1">linux in depth</div>
-                <div class="col-auto sub-domain mx-1">escalation</div>
-                <div class="col-auto sub-domain mx-1">swiss army tool</div>
+                <div class="col-auto sub-domain mx-1 my-1">linux in depth</div>
+                <div class="col-auto sub-domain mx-1 my-1">escalation</div>
+                <div class="col-auto sub-domain mx-1 my-1">swiss army tool</div>
               </div>
             </div>
           </div>
@@ -302,11 +319,11 @@
               Rs 4000
             </div>
             <div class="col mx-2">
-              <div class="row mb-1">
-                <div class="col-auto sub-domain mx-1">services</div>
-                <div class="col-auto sub-domain mx-1">implementation</div>
-                <div class="col-auto sub-domain mx-1">audit</div>
-                <div class="col-auto sub-domain mx-1">responsibility</div>
+              <div class="row">
+                <div class="col-auto sub-domain mx-1 my-1">services</div>
+                <div class="col-auto sub-domain mx-1 my-1">implementation</div>
+                <div class="col-auto sub-domain mx-1 my-1">audit</div>
+                <div class="col-auto sub-domain mx-1 my-1">responsibility</div>
               </div>
             </div>
           </div>
@@ -338,16 +355,16 @@
               Rs 4000
             </div>
             <div class="col mx-2">
-              <div class="row mb-1">
-                <div class="col-auto sub-domain mx-1">management</div>
-                <div class="col-auto sub-domain mx-1">acess</div>
+              <div class="row">
+                <div class="col-auto sub-domain mx-1 my-1">management</div>
+                <div class="col-auto sub-domain mx-1 my-1">acess</div>
               </div>
               <div class="row">
-                <div class="col-auto sub-domain mx-1">aws</div>
-                <div class="col-auto sub-domain mx-1">azure</div>
-                <div class="col-auto sub-domain mx-1">iam</div>
-                <div class="col-auto sub-domain mx-1">identity</div>
-                <div class="col-auto sub-domain mx-1">application</div>
+                <div class="col-auto sub-domain mx-1 my-1">aws</div>
+                <div class="col-auto sub-domain mx-1 my-1">azure</div>
+                <div class="col-auto sub-domain mx-1 my-1">iam</div>
+                <div class="col-auto sub-domain mx-1 my-1">identity</div>
+                <div class="col-auto sub-domain mx-1 my-1">application</div>
               </div>
             </div>
           </div>
@@ -379,14 +396,14 @@
               FREE
             </div>
             <div class="col mx-2">
-              <div class="row mb-1">
-                <div class="col-auto sub-domain mx-1">Introduction</div>
+              <div class="row">
+                <div class="col-auto sub-domain mx-1 my-1">Introduction</div>
               </div>
               <div class="row">
-                <div class="col-auto sub-domain mx-1">vast topic</div>
-                <div class="col-auto sub-domain mx-1">types</div>
-                <div class="col-auto sub-domain mx-1">phases</div>
-                <div class="col-auto sub-domain mx-1">owasp top 10</div>
+                <div class="col-auto sub-domain  mx-1 my-1">vast topic</div>
+                <div class="col-auto sub-domain  mx-1 my-1">types</div>
+                <div class="col-auto sub-domain  mx-1 my-1">phases</div>
+                <div class="col-auto sub-domain  mx-1 my-1">owasp top 10</div>
               </div>
             </div>
           </div>
@@ -427,15 +444,15 @@
             <div class="row mt-3">
               <div class="col mx-2">
                 <div class="row mb-1">
-                  <div class="col-auto sub-domain mx-1">recon</div>
-                  <div class="col-auto sub-domain mx-1">poc</div>
-                  <div class="col-auto sub-domain mx-1">report generation</div>
+                  <div class="col-auto sub-domain my-1 mx-1">recon</div>
+                  <div class="col-auto sub-domain my-1 mx-1">poc</div>
+                  <div class="col-auto sub-domain my-1 mx-1">report generation</div>
                 </div>
 
                 <div class="row">
-                  <div class="col-auto sub-domain mx-1">scoping</div>
-                  <div class="col-auto sub-domain mx-1">vuln detection</div>
-                  <div class="col-auto sub-domain mx-1">exploitation</div>
+                  <div class="col-auto sub-domain my-1 mx-1">scoping</div>
+                  <div class="col-auto sub-domain my-1 mx-1">vuln detection</div>
+                  <div class="col-auto sub-domain my-1 mx-1">exploitation</div>
                 </div>
 
               </div>
@@ -477,14 +494,14 @@
             <div class="row mt-3">
               <div class="col mx-2">
                 <div class="row mb-1">
-                  <div class="col-auto sub-domain mx-1">OSI MODEL</div>
-                  <div class="col-auto sub-domain mx-1">operation</div>
-                  <div class="col-auto sub-domain mx-1">networking</div>
+                  <div class="col-auto sub-domain my-1 mx-1">OSI MODEL</div>
+                  <div class="col-auto sub-domain my-1 mx-1">operation</div>
+                  <div class="col-auto sub-domain my-1 mx-1">networking</div>
                 </div>
                 <div class="row">
-                  <div class="col-auto sub-domain mx-1">linux in depth</div>
-                  <div class="col-auto sub-domain mx-1">escalation</div>
-                  <div class="col-auto sub-domain mx-1">swiss army tool</div>
+                  <div class="col-auto sub-domain my-1 mx-1">linux in depth</div>
+                  <div class="col-auto sub-domain my-1 mx-1">escalation</div>
+                  <div class="col-auto sub-domain my-1 mx-1">swiss army tool</div>
                 </div>
               </div>
             </div>
@@ -525,10 +542,10 @@
             <div class="row mt-3">
               <div class="col mx-2">
                 <div class="row mb-1">
-                  <div class="col-auto sub-domain mx-1">services</div>
-                  <div class="col-auto sub-domain mx-1">implementation</div>
-                  <div class="col-auto sub-domain mx-1">audit</div>
-                  <div class="col-auto sub-domain mx-1">responsibility</div>
+                  <div class="col-auto sub-domain my-1 mx-1">services</div>
+                  <div class="col-auto sub-domain my-1 mx-1">implementation</div>
+                  <div class="col-auto sub-domain my-1 mx-1">audit</div>
+                  <div class="col-auto sub-domain my-1 mx-1">responsibility</div>
                 </div>
               </div>
             </div>
@@ -541,14 +558,6 @@
               </div>
             </div>
           </div>
-
-
-
-
-        <!-- <div class="row"></div>
-        <div class="row"></div>
-        <div class="row"></div>
-        <div class="row"></div> -->
         </div>
 
         <div class="row domain-card p-2 mb-3">
@@ -576,10 +585,13 @@
             <div class="row mt-3">
               <div class="col mx-2">
                 <div class="row mb-1">
-                  <div class="col-auto sub-domain me-1 my-1">services</div>
-                  <div class="col-auto sub-domain me-1 my-1">implementation</div>
-                  <div class="col-auto sub-domain me-1 my-1">audit</div>
-                  <div class="col-auto sub-domain me-1 my-1">responsibility</div>
+                  <div class="col-auto sub-domain mx-1 my-1">management</div>
+                  <div class="col-auto sub-domain mx-1 my-1">access</div>
+                </div><div class="row mb-1">
+                  <div class="col-auto sub-domain mx-1 my-1">aws</div>
+                  <div class="col-auto sub-domain mx-1 my-1">azure</div>
+                  <div class="col-auto sub-domain mx-1 my-1">identity</div>
+                  <div class="col-auto sub-domain mx-1 my-1">application</div>
                 </div>
               </div>
             </div>
@@ -592,14 +604,6 @@
               </div>
             </div>
           </div>
-
-
-
-
-        <!-- <div class="row"></div>
-        <div class="row"></div>
-        <div class="row"></div>
-        <div class="row"></div> -->
         </div>
 
 
@@ -628,15 +632,15 @@
             <div class="row mt-3">
               <div class="col">
                 <div class="row mb-1">
-                  <div class="col-auto sub-domain me-1 my-1">management</div>
-                  <div class="col-auto sub-domain me-1 my-1">acess</div>
+                  <div class="col-auto sub-domain mx-1 my-1">management</div>
+                  <div class="col-auto sub-domain mx-1 my-1">acess</div>
                 </div>
                 <div class="row">
-                  <div class="col-auto sub-domain me-1 my-1">aws</div>
-                  <div class="col-auto sub-domain me-1 my-1">azure</div>
-                  <div class="col-auto sub-domain me-1 my-1">iam</div>
-                  <div class="col-auto sub-domain me-1 my-1">identity</div>
-                  <div class="col-auto sub-domain me-1 my-1">application</div>
+                  <div class="col-auto sub-domain mx-1 my-1">aws</div>
+                  <div class="col-auto sub-domain mx-1 my-1">azure</div>
+                  <div class="col-auto sub-domain mx-1 my-1">iam</div>
+                  <div class="col-auto sub-domain mx-1 my-1">identity</div>
+                  <div class="col-auto sub-domain mx-1 my-1">application</div>
                 </div>
               </div>
             </div>
@@ -652,10 +656,10 @@
         </div>
     </div>
 
-    <div class="container-md domain-card px-2 py-3">
+    <div class="container-md domain-card px-1 py-3">
       <div class="row d-flex justify-content-center">
-        <div class="col-auto">
-          <ul class="link-list">
+        <div class="col-auto" >
+          <ul class="link-list" style="width: 340px;">
               <li><a href="#">🤓 types-of-dos-attacks</a></li>
               <li><a href="#">👵 edit-videos-in-linux-os</a></li>
               <li><a href="#">🤓 ai-for-identify-phishing</a></li>
@@ -676,7 +680,7 @@
       </div>
 
       <div class="col-auto">
-          <ul class="link-list">
+          <ul class="link-list" style="width: 340px;">
               <li><a href="#">🐍 ai-ml-threat-intelligence</a></li>
               <li><a href="#">🔗 prevent-cyber-attacks-using-ai</a></li>
               <li><a href="#">🔬 hunting-on-hackerone</a></li>
@@ -698,7 +702,7 @@
 
 
       <div class="col-auto">
-          <ul class="link-list">
+          <ul class="link-list" style="width: 350px;">
               <li><a href="#">🤖 secure-iot-devices-using-ai</a></li>
               <li><a href="#">👩‍⚖️ secure-your-iot-devices</a></li>
               <li><a href="#">🎧 firewalls-to-protect-data</a></li>
@@ -831,6 +835,7 @@
               <li><a href="#">Your Account</a></li>
               <li><a href="#">Become an Affiliate</a></li>
               <li><a href="#">Create an account</a></li>
+              <li><a href="#">Careers</a></li>
               <li><a href="#">Help</a></li>
             </ul>
           </div>
@@ -862,10 +867,11 @@
       </div>
     </footer>
   
-
-
-
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/careers.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/careers-toggle-theme.js"></script>
+    
   </body>
 </html>
