@@ -28,7 +28,7 @@ $(document).ready(function(){
     function applyDarkMode() {
         $('#theme_change').addClass('ri-sun-line').removeClass('ri-moon-line');
         $('body').removeClass('light');
-      //   $('.menu').removeClass('menu-light');
+        $('.menu').removeClass('menu-light');
         $('.highlighted-text').addClass('blue-text').removeClass('white-text');
         $('.alert-container').removeClass('alert-container-light');
     }
@@ -36,7 +36,7 @@ $(document).ready(function(){
     function applyLightMode() {
         $('#theme_change').addClass('ri-moon-line').removeClass('ri-sun-line');
         $('body').addClass('light');
-      //   $('.menu').addClass('menu-light');
+        $('.menu').addClass('menu-light');
         $('.highlighted-text').addClass('white-text').removeClass('blue-text');
         $('.alert-container').addClass('alert-container-light');
     }
